@@ -29,7 +29,7 @@ main{
     flex-direction: column;
     justify-content:flex-start;
     align-items: center;
-    height:max-content;
+    height: 100vh;
     position: relative;
     
 }
@@ -87,6 +87,7 @@ footer {
 footer p{
     color: gray;
 }
+
 
 @media screen and (max-width: 768px){
     .grid-container{

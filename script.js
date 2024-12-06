@@ -2,6 +2,7 @@
 const fetchButton = document.getElementById('fetch-btn');
 const countriesContainer = document.getElementById('countries-container');
 
+
 // 2. Create an async function to fetch the data
  
 async function fetchCountries(){
@@ -38,4 +39,8 @@ async function fetchCountries(){
 }
 
 // 3. Add an event listener to the button
-fetchButton.addEventListener('click', fetchCountries);
+fetchButton.addEventListener('click', ()=> {
+    fetchCountries();
+    fetchButton.style.height = "screen.height";
+    
+});
